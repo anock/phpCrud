@@ -127,7 +127,7 @@ include 'action.php';
       <?php while($row=$result ->fetch_assoc()){ ?>
       <tr>
         <td><?= $row['id']; ?></td>
-        <td><img src="<?= $row['photo']; ?>" width="50"></td>
+        <td><img src="<?= $row['photo']; ?>" width="35"></td>
         <td><?= $row['name']; ?> </td>
         <td><?= $row['email']; ?></td>
         <td> <?= $row['phone']; ?></td>
